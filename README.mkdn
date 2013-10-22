@@ -1,4 +1,4 @@
-OFFICIAL CM10.2 Linaro Diablo Kernel MANIFEST FOR HERCULES, SKYROCKET, quincyatt, quincytmo
+UNOFFICIAL CM10.2 Linaro Diablo Kernel MANIFEST FOR HERCULES, SKYROCKET, quincyatt, quincytmo
 
 To initialize your local repository use
 
