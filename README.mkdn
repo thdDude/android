@@ -1,8 +1,8 @@
-OFFICIAL HELLYBEAN MANIFEST FOR HERCULES, SKYROCKET, quincyatt, quincytmo, D2TMO, D2ATT, Mako, and Jfltetmo
+OFFICIAL CM10.2 Linaro Diablo Kernel MANIFEST FOR HERCULES, SKYROCKET, quincyatt, quincytmo
 
 To initialize your local repository use
 
-    repo init -u https://github.com/thdDude/android.git -b cm-10.2
+    repo init -u https://github.com/thdDude/android.git -b td-cm-10.2
     
 
 Then to sync up:
