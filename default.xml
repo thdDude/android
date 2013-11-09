@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="thdDude/android" />
+  <project path="android" name="thdDude/android" remote="github" revision="cm-11.0" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
@@ -475,6 +475,10 @@
   
 <!--Hercules-Skyrocket-quincyatt-quincytmo Requirements-->
   <project path="kernel/samsung/msm8660-common" name="Hellybean/android_kernel_samsung_msm8660-common" remote="github" revision="cm-11.0" />
-  <project name="thdDude/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+  <project path="vendor/samsung" name="thdDude/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/msm8660-common" name="Hellybean/android_device_samsung_msm8660-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/celox-common" name="Hellybean/android_device_samsung_celox-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/qcom-common" name="Hellybean/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
+
 
 </manifest>
