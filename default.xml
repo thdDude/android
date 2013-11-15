@@ -483,7 +483,7 @@
   <project path="device/samsung/hercules" name="Hellybean/android_device_samsung_hercules" remote="github" revision="cm-11.0" />
   <project path="device/samsung/msm8660-common" name="Hellybean/android_device_samsung_msm8660-common" remote="github" revision="cm-11.0" />  
   <project path="device/samsung/qcom-common" name="Hellybean/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
-  <project path="device/samsung/skyrocket" name="CyanogenMod/android_device_samsung_skyrocket" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/skyrocket" name="Hellybean/android_device_samsung_skyrocket" remote="github" revision="cm-11.0" />
 
 <!--T0lte-Requirements-->  
   <project name="CyanogenMod/android_device_samsung_t0lte" path="device/samsung/t0lte" remote="github" />
