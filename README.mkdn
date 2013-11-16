@@ -1,4 +1,4 @@
-UNOFFICIAL CM11.0 Linaro Diablo Kernel MANIFEST FOR HERCULES
+UNOFFICIAL CM11.0 Linaro MANIFEST FOR n7100, t0lte, etc
 
 ```
 mkdir cm-11
