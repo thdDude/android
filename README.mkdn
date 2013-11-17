@@ -21,7 +21,7 @@ CM11 BoogerPicker Building Instructions
 
 . build/envsetup.sh
 make clean
-breakfast cm_hercules-userdebug
+breakfast cm_xxxxxx-userdebug
 ./boogerpicker/cm-11.0.sh
 mka bacon
 ```
