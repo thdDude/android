@@ -5,9 +5,24 @@ mkdir cm-11
 cd cm-11
 From your cm-11 directory, execute the following to pull all source code from github:
 
-    repo init -u https://github.com/thdDude/android.git -b cm-11.0
+repo init -u https://github.com/thdDude/android.git -b cm-11.0X
 ```    
+Modify your `.repo/local_manifest.xml` as follows:
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Hellybean/android_device_samsung_hercules" path="device/samsung/hercules" remote="github" />
+  <project name="Hellybean/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="Hellybean/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="github" />
+  <project name="Hellybean/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="github" />
+  <project name="Hellybean/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
+  <project name="Hellybean/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+  <project name="Hellybean/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+  <project name="Hellybean/android_hardware_samsung" path="hardware/samsung" remote="github" />
+</manifest>
+```
 
 
 ```
@@ -21,7 +36,7 @@ CM11 BoogerPicker Building Instructions
 
 . build/envsetup.sh
 make clean
-breakfast cm_xxxxxx-userdebug
+breakfast cm_n7100-userdebug
 ./boogerpicker/cm-11.0.sh
 mka bacon
 ```
