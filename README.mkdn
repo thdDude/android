@@ -12,11 +12,8 @@ Modify your `.repo/local_manifest.xml` as follows:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Hellybean/android_device_samsung_hercules" path="device/samsung/hercules" remote="github" />
-  <project name="Hellybean/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
-  <project name="Hellybean/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="github" />
-  <project name="Hellybean/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="github" />
   <project name="Hellybean/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
+  <project name="Hellybean/android_device_samsung_t0lte" path="device/samsung/t0lte" remote="github" />  
   <project name="Hellybean/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
   <project name="Hellybean/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
