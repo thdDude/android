@@ -477,7 +477,7 @@
 <!--Cl3Kener's-Tools-->
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-kernel" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
-  <project name="Cl3Kener/BoogerPicker" path="boogerpicker" remote="github" revision="cm-11X" />
+  <project name="Cl3Kener/BoogerPicker" path="boogerpicker" remote="github" revision="cm-11.0X" />
   
 <!--Diablo-Kernel-->
   <project path="kernel/samsung/msm8660-common" name="Hellybean/android_kernel_samsung_msm8660-common" remote="github" revision="cm-11.0" />
