@@ -20,7 +20,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="thdDude/android_build" emote="github" revision="cm-11.0" groups="pdk" >
+  <project path="build" name="thdDude/android_build" emote="github" revision="cm-11.0X" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -480,6 +480,7 @@
 <!--Cl3Kener's-Tools-->
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-kernel" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
-  <project name="Cl3Kener/BoogerPicker" path="boogerpicker" remote="github" revision="cm-11.0X" />
-
+  <project path="boogerpicker" name="Cl3Kener/BoogerPicker" remote="github" revision="master" />
+  <project path="hkscripts" name="Hellybean/hkscripts" remote="github" >
+    <copyfile dest="hkbuild.sh" src="hkbuild.sh"/>
 </manifest>
