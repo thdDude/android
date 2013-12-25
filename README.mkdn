@@ -1,5 +1,8 @@
-UNOFFICIAL CM11.0 Linaro MANIFEST FOR n7100, t0lte, etc
+UNOFFICIAL CM11.0 Linaro Manifest
+===========
 
+Commands To Sync Repo
+------------------
 ```
 mkdir cm-11
 cd cm-11
@@ -7,7 +10,7 @@ From your cm-11 directory, execute the following to pull all source code from gi
 
 repo init -u https://github.com/thdDude/android.git -b cm-11.0X
 ```    
-Modify your `.repo/local_manifest.xml` as follows:
+You may need to modify your `.repo/local_manifest.xml` for your device as follows:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -24,17 +27,13 @@ Modify your `.repo/local_manifest.xml` as follows:
 
 ```
 repo sync
-vendor/cm/get-prebuilts
-```
 
-CM11 BoogerPicker Building Instructions
-=======================
-```
+```  
 
-. build/envsetup.sh
-make clean
-breakfast cm_n7100-userdebug
-./boogerpicker/cm-11.0.sh
-mka bacon
+To Compile
+------------------
+
+```
+./cmbuild.sh <device>
 ```
 =======
