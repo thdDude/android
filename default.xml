@@ -469,7 +469,8 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
-  <project path="vendor/cm" name="thdDude/android_vendor_cm" remote="github" revision="cm-11.0X" />
+  <project path="vendor/samsung" name="Hellybean/proprietary_vendor_samsung" />
+  <project path="vendor/lge" name="Hellybean/proprietary_vendor_lge" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/samsung" name="thdDude/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
@@ -492,6 +493,4 @@
   <project path="device/samsung/hercules" name="Hellybean/android_device_samsung_hercules" remote="github" revision="cm-11.0" />
   <project path="device/samsung/msm8660-common" name="Hellybean/android_device_samsung_msm8660-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/qcom-common" name="Hellybean/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
-  <project path="vendor/samsung" name="thdDude/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
-  <project path="vendor/lge" name="Hellybean/proprietary_vendor_lge" />
 </manifest>
