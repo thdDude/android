@@ -21,11 +21,11 @@
            sync-j="4" />
 
   
-  <project path="build" name="thdDude/android_build" groups="td-cm-10.2" >
+  <project path="build" name="thdDude/android_build" groups="cm-10.2X" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="thdDude/android" groups="td-cm-10.2" />
+  <project path="android" name="thdDude/android" groups="cm-10.2X" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
@@ -423,7 +423,7 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="vendor/cm" name="thdDude/android_vendor_cm" remote="github" revision="cm-10.2Linaro" />
+  <project path="vendor/cm" name="thdDude/android_vendor_cm" remote="github" revision="cm-10.2X" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />

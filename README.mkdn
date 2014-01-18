@@ -2,7 +2,7 @@ UNOFFICIAL CM10.2 Linaro Diablo Kernel MANIFEST FOR HERCULES, SKYROCKET, quincya
 
 To initialize your local repository use
 
-    repo init -u https://github.com/thdDude/android.git -b td-cm-10.2
+    repo init -u https://github.com/thdDude/android.git -b cm-10.2X
     
 
 Then to sync up:
