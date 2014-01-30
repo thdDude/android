@@ -27,6 +27,8 @@ You may need to modify your `.repo/local_manifest.xml` for your device as follow
  <project name="Hellybean/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
  <project name="Hellybean/android_device_samsung_skyrocket" path="device/samsung/skyrocket" remote="github" />
+ <project path="vendor/lge" name="Hellybean/proprietary_vendor_lge" />
+ <project path="vendor/samsung" name="Hellybean/proprietary_vendor_samsung" />
 </manifest>
 ```
 
