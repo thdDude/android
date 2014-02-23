@@ -25,7 +25,7 @@ You may need to modify your `.repo/local_manifest/roomservice.xml` for your devi
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
   <project name="Hellybean/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="Hellybean/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" />
-  <project name="Hellybean/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="github" />
+  <project name="Hellybean/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
   <project name="Hellybean/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
   <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
